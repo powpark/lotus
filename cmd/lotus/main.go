@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"fmt"
 
 	"github.com/urfave/cli/v2"
 	"go.opencensus.io/trace"
@@ -16,6 +17,7 @@ import (
 var AdvanceBlockCmd *cli.Command
 
 func main() {
+	fmt.Println("change")
 	build.RunningNodeType = build.NodeFull
 
 	lotuslog.SetupLogLevels()
