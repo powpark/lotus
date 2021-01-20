@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  aws-ecr: circleci/aws-ecr@6.15.2
+  aws-ecr: nonsense/aws-ecr@0.0.1
 
 executors:
   ubuntu:
